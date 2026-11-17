@@ -1,0 +1,13 @@
+name: atlas
+version: "1.0.0"
+description: "Thin Atlas Engine client, file transport and one bundled Atlas skill"
+author: "Felix"
+manifest_version: 1
+python_dependencies:
+  - "jsonschema>=4.18,<5"
+provides_tools:
+  - atlas_engine
+  - atlas_files
+  - atlas_mask
+  - atlas_censor
+  - anime_mosaic
